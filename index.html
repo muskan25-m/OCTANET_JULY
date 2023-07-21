@@ -1,33 +1,27 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv=" X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
-  </head>
-  <body>
-    <div class="main">
-      <div class="header">
-        <ul>
-          <Button>HOME</Button>
-          <li>Services</li>
-          <li>Prices</li>
-          <li>About us</li>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List - JavaScript Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <h1>My To Do List</h1>
+            <input type="text" placeholder="Add a new to do..." id="inputBox">
+            <input type="button" value="Add" id="addBtn">
+        </div>
+
+        <ul class="todoList" id="todoList">
+            <!-- <li><p>Task1</p></li>
+            <li>Task2</li>
+            <li>Task3</li> -->
         </ul>
-        <input type="text" placeholder="search">
-      </div>
-      <div class="body-section">
-        <h1>Muskan Beauty Salon</h1>
-        <p>Women love to change their look from time to time, follow the latest fashion of hair styles and makeup but they have time commitments from work and family giving them less time to look for salons and less time to wait at salons. If they want to obtain a time slot at a salon they have to come very early just to get on the waiting list. </p>
-        <span>
-          <button>BOOK</button>
-          <button class="contact">CONTACT</button>
-        </span>
-
-      </div>
     </div>
-  </body>
 
+    <script src="script.js"></script>
+</body>
 </html>
